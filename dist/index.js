@@ -36,4 +36,3 @@ app.use(web_1.default);
 app.use('/api', api_1.default);
 app.use((_, res) => res.redirect('/past'));
 const server = app.listen(Number(port), () => console.info(`Server running on port ${port}`));
-exports.default = server;

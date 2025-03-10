@@ -38,6 +38,4 @@ app.use(web);
 app.use('/api', api);
 app.use((_, res: Response) => res.redirect('/past'));
 
-const server = app.listen(Number(port), () => console.info(`Server running on port ${port}`));
-
-export default server;
+app.listen(Number(port), () => console.info(`Server running on port ${port}`));
