@@ -1,10 +1,10 @@
 import express, { Router, Request, Response } from 'express';
 
-const baseUrl = process.env.BASE_URL!, port = process.env.PORT;
+const url = process.env.URL!;
 
 const fetchData = async (path: string) => {
     try {
-        const res = await fetch(`${baseUrl}:${port}${path}`);
+        const res = await fetch(`${url}${path}`);
         return await res.json();
     } catch (e) {
         console.error('Error from fetch', e);

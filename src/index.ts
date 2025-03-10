@@ -6,7 +6,7 @@ import { create } from 'express-handlebars';
 import web from 'controllers/web';
 import api from 'controllers/api';
 
-const port = process.env.PORT!;
+const port = process.env.PORT || 3000;
 const app = express();
 const hbs = create({
     extname: '.hbs',
