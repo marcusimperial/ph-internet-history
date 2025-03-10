@@ -1,0 +1,31 @@
+<div class="present-container">
+
+    <section>
+
+        <div class="present-header-banner">
+
+            <img src={{ image.path }} alt={{ image.alt }} class="present-banner-image">
+
+            <div class="present-banner-overlay">
+                <h1 data-aos="zoom-out" data-aos-duration="1000" class="present-banner-title">{{ title }}</h1>
+            </div>
+
+        </div>
+
+    </section>
+
+    {{#each sections}}
+
+        {{#isEven @index}}
+
+            {{> section2 title=title description=description image=image }}
+
+        {{else}}
+
+            {{> section3 title=title description=description image=image }}
+
+        {{/isEven}}
+
+    {{/each}}
+
+</div>

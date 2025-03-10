@@ -1,0 +1,62 @@
+{
+    "header": {
+        "title": "The History of Philippine Internet",
+        "description": "Trace the early beginnings of the internet in the Philippines and discover the milestones that ultimately shaped the digital landscape of the nation. Navigate and understand the early triumphs, persisting issues, and forward trajectories. Ready? Begin the time travel and enter the Past, the Present, and the Future of Philippine Internet -- all in one website.",
+        "image": {
+            "path": "assets/0-banner.png",
+            "alt": "Page banner showing a historical photo of the Philippines"
+        }
+    },
+
+    "sections": [
+        {
+            "title": "The Early Philippine Internet (Pre-1990)",
+            "description": "The Philippines first connected to the internet on March 29, 1994 through a “64kpbs serial link to US-based Sprint Communications” led by Dr. William Torres, dubbed the “Father of the Philippine Internet” (Dimacali, 2014).",
+            "image": {
+                "path": "assets/0-0-torres-photo.jpg",
+                "alt": "Dr. Torres speaking at a conference"
+            }
+        },
+        {
+            "title": "'We're in!' - The First Philippine Internet Connection",
+            "description": "The breakthrough was a culmination of the efforts of members of several top universities in the country, collectively known as the “Philnet Technical Team” - of which Benjamin Tan, the poster as seen in the photo, was a member (Ayson, 2011).",
+            "image": {
+                "path": "assets/0-1-ggroups-post.png",
+                "alt": "First Philippine post on the internet as seen in the Google Groups archive"
+            }
+        },
+        {
+            "title": "Bulletin Board Systems",
+            "description": "The earliest roots of the internet, however, truly began in 1986 with the inception of the  Philippine Fidonet BBS network which was a “network of interconnected bulletin board systems” serving as a means of e-mail communication among academics (Ayson, 2011).",
+            "image": {
+                "path": "assets/0-2-fidonet.png",
+                "alt": "Logo of the Fidonet network"
+            }
+        },
+        {
+            "title": "The Commercial Internet (1990-2000)",
+            "description": "Mosaic Communications (Mozcom) was the country's first-ever commercial Internet Service Provider (ISP), effectively introducing the internet to the common tao (folk); commercialization became a means for the internet to grow (Toral & Ocampo, 2001).",
+            "image": {
+                "path": "assets/0-3-mozcom-logo.png",
+                "alt": "Logo of Mosaic Communications"
+            }
+        },
+        {
+            "title": "The Science and Academe Research Network (SARNET)",
+            "description": "Within the public sector, the Department of Science and Technology (DOST) launched the Science and Academe Research Network (SARNET) which “had ambitious goals…to use a 64-[kpbs] leased line” but ultimately failed due to insufficient funding (Toral & Ocampo, 2001).",
+            "image": {
+                "path": "assets/0-4-dost-logo.png",
+                "alt": "Logo of the Department of Science and Technology"
+            }
+        },
+        {
+            "title": "The Philippine Long Distance Telephone Company (PLDT) and DSL",
+            "description": "By the year 2000, the Philippine Long Distance Telephone Company (PLDT) pioneered the Digital Subscriber Line (DSL), introducing wired, broadband service to Filipinos. DSL served to provide faster and more reliable speeds and jumpstarted adoption among households (“PLDT”, n.d.).",
+            "image": {
+                "path": "assets/0-5-pldt-logo.png",
+                "alt": "Logo of the Philippine Long Distance Telephone Company"
+            }
+        }
+    ]
+    
+}

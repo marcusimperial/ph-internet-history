@@ -1,0 +1,36 @@
+<div class="future-container">
+
+    <section class="future-header">
+
+        <div class="future-content">
+
+            <div class="future-banner" data-aos="zoom-out" data-aos-duration="1000" data-aos-delay="250">
+
+                <img src={{ image.path }} alt={{ image.alt }} />
+
+            </div>
+
+            <div class="future-title-container">
+
+                <h1 data-aos="zoom-out" data-aos-duration="1000" class="future-title">{{ title }}</h1>
+
+            </div>
+        </div>
+
+    </section>
+
+    {{#each sections}}
+
+        {{#isEven @index}}
+
+            {{> section3 title=title description=description image=image }}
+
+        {{else}}
+
+            {{> section2 title=title description=description image=image }}
+
+        {{/isEven}}
+
+    {{/each}}
+
+</div>

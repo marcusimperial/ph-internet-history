@@ -1,0 +1,45 @@
+<div class="past-container">
+
+    <section>
+
+        <div class="past-header-banner">
+
+            <img src={{ image.path }} alt={{ image.alt }}>
+
+        </div>
+
+        <h1 data-aos="zoom-out" data-aos-duration="1000" class="past-page-title">{{ title }}</h1>
+
+    </section>
+
+    <section class="buttons-section">
+
+        <a href="/present" class="button-pill present">
+            <span class="material-icons icon-left">pause</span>
+            Visit the Present
+        </a>
+
+        <a href="/future" class="button-pill future">
+            <span class="material-icons icon-left">fast_forward</span>
+            Visit the Future
+        </a>
+
+    </section>
+
+    {{> section1 title="Emark on a Journey through Time" }}
+
+    {{#each sections}}
+
+        {{#isLowerRange @index}}
+
+            {{> section3 title=title description=description image=image }}
+
+        {{else}}
+
+            {{> section2 title=title description=description image=image }}
+
+        {{/isLowerRange}}
+
+    {{/each}}
+
+</div>
