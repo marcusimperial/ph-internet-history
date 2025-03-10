@@ -1,0 +1,45 @@
+{
+    "header": {
+        "title": "The Future of Philippine Internet",
+        "image": {
+            "path": "assets/3-banner.jpg",
+            "alt": "Page banner showing a futuristic cityscape"
+        }
+    },
+
+    "sections": [
+        {
+            "title": "The Future of Philippine Internet (Post-2025)",
+            "description": "Amid the prevalence of COVID-19 in 2020, “67 percent of Filipinos had internet access” by January 2021. This pressed on the already-persisting issue of slow internet, however, with the nation ranking “84th out of 177” countries globally (Magahis & Santua, 2021).",
+            "image": {
+                "path": "assets/2-0-covid.jpg",
+                "alt": "Individual wearing a mask and shield using a tablet during the COVID-19 pandemic"
+            }
+        },
+        {
+            "title": "The State of Philippine Internet",
+            "description": "The country's poor internet speeds prompted regulatory eases, permitting up to 100% foreign ownership as well as enacting The Subscriber Identity Module (SIM) Act in 2022 to aid in curbing illegal activity (“Philippines Country Commercial Guide”, 2024).",
+            "image": {
+                "path": "assets/2-1-cybercrime.jpg",
+                "alt": "Anonymous individual in a hoodie typing on a laptop"
+            }
+        },
+        {
+            "title": "Fiber-Optic Systems and Infrastructure",
+            "description": "“[P]layers are expected to…install fiber-optic…systems” to sustainably remedy the nation’s troubling speeds especially as the “number of…subscribers…will reach 159 million” by 2025. (“Philippines Country Commercial Guide”, 2024).",
+            "image": {
+                "path": "assets/2-2-fiber-cable.jpg",
+                "alt": "Fiber-optic cable"
+            }
+        },
+        {
+            "title": "The Puzzle Piece Awaiting Assembly",
+            "description": "As expressed by Dr. Torres, Philippine internet is a “puzzle still waiting to be assembled” with its vast milestones yet its equal hurdles unresolved; while we have the “pieces” we ultimately: “need to know how to put it all together” (Torres qtd. in Dimacali, 2011).",
+            "image": {
+                "path": "assets/2-3-puzzle-piece.jpg",
+                "alt": "Puzzle piece"
+            }
+        }
+    ]
+    
+}

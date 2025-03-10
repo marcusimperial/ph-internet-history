@@ -1,0 +1,53 @@
+{
+    "header": {
+        "title": "Today's Internet in the Philippines",
+        "image": {
+            "path": "assets/1-banner.webp",
+            "alt": "Page banner showing a globe connected by bright points above a laptop"
+        }
+    },
+
+    "sections": [
+        {
+            "title": "The Mobile Internet (2000-2010)",
+            "description": "On July 4, 2003, Globe Telecom, a telecommunications provider in the country, made the first Enhanced Data for Global Evolution (EDGE) call, introducing internet (2.5G) connectivity in smartphones (“Globe makes successful first EDGE data call on live network”, 2003).",
+            "image": {
+                "path": "assets/1-0-edge-net-diagram.jpg",
+                "alt": "Diagram of the EDGE network"
+            }
+        },
+        {
+            "title": "Smart Launches 3G",
+            "description": "Smart, a subsidiary of PLDT and Globe's primary competitor, launched “third generation mobile technology” or “3G” in 2006.  Smart had over 100,000 subscribers on 3G which boasted faster speeds and video streaming (3G launch 'huge success' — Smart, 2006).",
+            "image": {
+                "path": "assets/1-1-3g-net-diagram.jpg",
+                "alt": "Diagram of the 3G network"
+            }
+        },
+        {
+            "title": "USB WiFi Sticks",
+            "description": "As demand arose across both broadband and mobile, “USB WiFi Sticks” such as Globe's “Broadband Tattoo” proliferated in 2006, allowing “subscribers to stay connected while on-the-go, without breaking the bank” (“3G launch 'huge success' — Smart”, 2009).",
+            "image": {
+                "path": "assets/1-2-usb-wifi-stick.jpg",
+                "alt": "Globe's Broadband Tattoo USB WiFi Stick"
+            }
+        },
+        {
+            "title": "The Age of Social Media (2010-2025)",
+            "description": "It was not long after such a mass adoption that the Philippines became known as the “Social Networking Capital of the World”, leading in both users and usage across platforms such as Facebook, YouTube, and Twitter (Clemente, 2011).",
+            "image": {
+                "path": "assets/1-3-social-media.png",
+                "alt": "Phone screen showing social media apps"
+            }
+        },
+        {
+            "title": "The Filipino Internet User",
+            "description": "In reconciling this characterization against the relatively meager size of the nation (~95 million, then) when compared to larger countries such as India: “Filipinos are highly social…and are near-native English speakers” (Lucas qtd. in Celemente, 2011).",
+            "image": {
+                "path": "assets/1-4-jeepney-bubble.png",
+                "alt": "Filipino on a Jeepney with a bubble showing English and Filipino conversation"
+            }
+        }
+    ]
+    
+}

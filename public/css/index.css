@@ -1,0 +1,76 @@
+html {
+    font-family: 'Roboto', sans-serif;
+    overflow-x: hidden;
+}
+
+h1 {
+    font-size: 6rem;
+    font-weight: 300;
+}
+
+h2 {
+    font-size: 3.56rem;
+    font-weight: 400;
+    line-height: 110%;
+}
+
+h3 {
+    font-size: 2.92rem;
+    font-weight: 400;
+    line-height: 110%;
+}
+
+h4 {
+    font-size: 2.125rem;
+    font-weight: 400;
+    line-height: 110%;
+}
+
+h5 {
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 110%;
+}
+
+h6 {
+    font-size: 1.25rem;
+    font-weight: 500;
+    line-height: 110%;
+}
+
+p {
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 1.5;
+    margin-bottom: 1rem;
+}
+
+small {
+    font-size: 0.8rem;
+    font-weight: 400;
+}
+
+blockquote {
+    font-size: 1.5rem;
+    font-weight: 300;
+    border-left: 5px solid #ccc;
+    padding-left: 1rem;
+    font-style: italic;
+}
+
+button,
+.btn {
+    font-size: 1rem;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.nav-wrapper a {
+    font-size: 1rem;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+body {
+    margin: 0;
+}
